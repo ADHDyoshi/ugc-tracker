@@ -4,7 +4,7 @@ const path = require('path');
 
 const itemsFilePath = path.join(__dirname, 'items.txt');
 const sentItemsFilePath = path.join(__dirname, 'sent_items.txt');
-const discordWebhookUrl = "";
+const discordWebhookUrl = ""; // Variable used for webhooks, place your webhook here!
 
 const delay = ms => new Promise(resolve => setTimeout(resolve, ms));
 
